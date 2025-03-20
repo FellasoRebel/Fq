@@ -1,23 +1,22 @@
 ### AUTOFILL PROFILES ###,,,,,,
 Profile ID,Name,Site,Hotkey,,,
 c2,"logq","http://dcywah.dcy.go.th/opp/app/frm_yproject_project_member.php","",,,
-c5,"fillqED","http://dcywah.dcy.go.th/opp/app/frm_yproject_project_member_detail.php","",,,
+c5,"formq 2025","dcywah.dcy.go.th/opp/app/frm_yproject_project_member_detail.php","",,,
 ### AUTOFILL RULES ###,,,,,,
 Rule ID,Type,Name,Value,Site,Mode,Profile
 r13,0,"/^EMAIL$/i","123@bigpond.com","",1,c2
 r14,1,"/^PASSWORD$/i","12345","",1,c2
-r58,2,"/^race_code$/i","""001""","",1,c5
-r59,2,"/^religion_code$/i","""01""","",1,c5
-r48,0,"/^birth_date$/i","27032568","",1,c5
-r64,3,"/^marry_code$/i","1","",1,c5
-r49,0,"/^mobile_phone$/i","0999999999","",1,c5
-r50,0,"/^institute_bhl_detail$/i","มหาวิทยาลัยชาวไทยอารยัน","",1,c5
-r60,2,"/^bachelor_degree_detail$/i","""40""","",1,c5
-r66,2,"","""หลักฐานจากสถาบันการศึกษา""","",1,c5
-r61,2,"/^test_remark$/i","""11""","",1,c5
-r53,3,"/^agn_prefix_code_thai$/i","003","",1,c5
-r54,0,"/^agn_first_name$/i","คุณพ่อ","",1,c5
-r55,0,"/^agn_last_name$/i","ฉันเอง","",1,c5
-r62,2,"/^agn_relation_code$/i","""$Fth$""","",1,c5
-r56,0,"/^agn_mobile$/i","0111111111","",1,c5
-r57,0,"/^agn_email$/i","heydad@hi5.com","",1,c5
+r82,0,"""birth_date""","","",1,c5
+r91,2,"""race_code""","""002""","",1,c5
+r92,2,"""religion_code""","""02""","",1,c5
+r83,3,"""marry_code""","010","",1,c5
+r84,0,"""mobile_phone""","0999999999","",1,c5
+r85,3,"""agn_prefix_code_thai""","100","",1,c5
+r86,0,"""agn_first_name""","พ่อ","",1,c5
+r87,0,"""agn_last_name""","นาทสกุล","",1,c5
+r93,2,"""agn_relation_code""","""$Fth$""","",1,c5
+r88,0,"""agn_mobile""","0111111111","",1,c5
+r89,0,"""agn_email""","heydad@hi5.com","",1,c5
+r94,2,"""bachelor_degree_detail""","""60""","",1,c5
+r90,0,"""institute_bhl_detail""","มหาวิทยาลัยสีเขียว","",1,c5
+r95,2,"""status_test""","""EDU""","",1,c5
